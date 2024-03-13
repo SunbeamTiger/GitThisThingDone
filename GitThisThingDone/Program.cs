@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string Name;
+            Console.WriteLine("What is your name?");
+            Name= Console.ReadLine();
+            Console.WriteLine("Hello, World!, " + Name.ToUpper());
         }
     }
 }
