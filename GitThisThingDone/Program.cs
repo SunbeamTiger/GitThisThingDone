@@ -7,8 +7,7 @@
             string Name;
             Console.WriteLine("What is your name?");
             Name= Console.ReadLine();
-            Console.WriteLine("Hello, World!, " + Name); ;
-
+            Console.WriteLine("Hello, World!, " + Name.ToUpper());
         }
     }
 }
